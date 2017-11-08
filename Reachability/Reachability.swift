@@ -50,6 +50,7 @@ func callback(reachability:SCNetworkReachability, flags: SCNetworkReachabilityFl
   }
 }
 
+@objcMembers
 open class Reachability:NSObject {
   
   public typealias NetworkReachable = (Reachability) -> ()
